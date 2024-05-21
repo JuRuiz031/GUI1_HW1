@@ -1,0 +1,47 @@
+/*Created by Juan Fernando Ruiz on 5/20/2024*/
+/*Basic CSS stylesheet for HW1*/
+
+/* Set a base font for the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+  background-color: #29374a;
+  color: #e0e0e0;
+}
+
+h1 {
+  font-size: 2em;  /* Set font size to 2 times the default */
+  margin-bottom: 1em;  /* Add some space below the heading */
+}
+
+h2 {
+  font-size: 1.5em;  /* Set font size to 1.5 times the default */
+  margin-bottom: 1em;  /* Add some space below the heading */
+}
+
+/* Style the images */
+img {
+  display: block;
+  margin: 0 auto;  /* Center the image horizontally */
+}
+
+/* Style of the table */
+table {
+  border-collapse: collapse;  /* Remove space between table cells */
+  width: 100%;  /* Make the table fill the available width */
+}
+
+th, td {
+  padding: 0.5em;  /* Add padding to table cells */
+  border: 1px solid #ddd;  /* Add a thin border to table cells */
+}
+
+/* Style of the links section */
+.Links {
+  margin-top: 1em;  /* Add space above the links section */
+}
+
+.Links a {
+  margin-right: 1em;  /* Add space between links */
+  color: #fff /* Set the color for the link to be white */
+}

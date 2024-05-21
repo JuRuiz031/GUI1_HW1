@@ -1,0 +1,77 @@
+<!-- Juan Fernando Ruiz juan_ruiz@student.uml.edu 
+Date: 5/20/2024
+File: index.html 
+GUI I Homework 1: First Web Page 
+This is a short webpage where I cover 2 basic baseball pitch types and what they offer when used in tandem by a pitcher.
+-->
+<!DOCTYPE html> <!-- Tells the browser about the document type-->
+<html lang="en"> <!--Specify the language used in the website-->
+    <head> <!--Head of the page-->
+    <meta charset="utf-8">
+    <title>How a fastball and curveball work in tandem</title> <!-- Title of the webpage in the web browser-->
+    <link rel="stylesheet" href="css/style.css"> <!--Include the CSS stylesheet-->
+    </head>
+    <body>
+        <h1>Fastball and Curveball: A very basic explanation </h1>
+        <div class="Fastball"> <!--Create separate divisions for each section of the web page-->
+            <h1>Four-Seam Fastball</h1> <!-- h1 BIG header, goes from h1 to h6-->
+            <p>A fastball is a type of pitch that is typically thrown overhand and placed on the seams in such a way that
+            allows for pitchers to implement as much backspin as possible so that it does a better job of fighting gravity
+            due to the magnus effect. Higher spin and higher velocity fastballs have less vertical break and are harder to
+            hit.</p>
+            <img src="images/fastball.png" width="600" height = "300" alt="Fastball">
+        </div> <!--Close the div-->
+        <div>
+            <h1 class="Curveball">Curveball</h1>
+            <p>The curveball is a secondary pitch type made to combo incredibly well with a fastball. Out of the hand it
+            looks like a fastball but since it is thrown with forward spin, it dives to the ground much faster than a
+            fastball and is made to get swings and misses. The act of playing a curveball of off a fastball's path is
+            called pitch tunneling, since they look very similar for a large chunk of the way to the plate and then change
+            their trajectory depending on the pitch.</p>
+            <img src="images/curveball.png" width="600" height = "300" alt="Curveball">
+        </div>
+        <div class="Baseball table">
+            <h2>Basic breakdown of the pitch type for 3 pitchers</h2> <!--slightly smaller text than that of h1-->
+            <table> 
+                <tr>
+                    <th>Player</th>
+                    <th>Fastball Velo</th>
+                    <th>Curveball Velo</th>
+                    <th>bWAR(wins above replacement)</th>
+                </tr>
+                <tr>
+                    <td>Justin Verlander</td>
+                    <td>93.8</td>
+                    <td>77.8</td>
+                    <td>81.4</td>
+                </tr>
+                <tr>
+                    <td>Tyler Glasnow</td>
+                    <td>96.3</td>
+                    <td>84.5</td>
+                    <td>8.7</td>
+                </tr>
+                <tr>
+                    <td>Zac Gallen</td>
+                    <td>92.8</td>
+                    <td>80.4</td>
+                    <td>18.1</td>
+                </tr>
+            </table>
+        </div>
+        <h2>Source Links</h2>
+        <p>Links to the information and images used:</p>
+        <div class="Links">
+            <a href="https://baseballsavant.mlb.com/">Baseball Savant</a>
+            <a href="https://www.baseball-reference.com/">Baseball Reference</a>
+            <a href="https://lokeshdhakar.com/baseball-pitches-illustrated/">Pitch Illustrations</a>
+        </div>
+        <p>
+           <a href="http://jigsaw.w3.org/css-validator/check/referer">
+           <img style="border:0;width:88px;height:31px"
+           src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+           alt="Valid CSS!" />
+           </a>
+        </p>
+    </body>
+</html>
